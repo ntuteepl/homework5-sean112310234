@@ -15,7 +15,7 @@ int main()
     printf("%0.2f\n",f);
   }
   else if(min>1500){
-    f=min*0.79;
+    f=min*0.79*0.9;
     printf("%0.2f\n",f);
   }
 
