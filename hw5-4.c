@@ -17,5 +17,12 @@ int main()
       tmp2=ma;
   }
   angle=tmp1-tmp2;
-  printf("%0.3f\n",angle);
+  if(angle>180){
+      angle=360-angle;
+      printf("%0.3f\n",angle);
+  }
+  else{
+      printf("%0.3f\n",angle);
+  }
 }
+  
